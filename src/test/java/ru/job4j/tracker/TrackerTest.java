@@ -25,4 +25,5 @@ public class TrackerTest {
         tracker.add(item2);
         assertThat(tracker.findAll().length, is(2));
     }
+
 }
